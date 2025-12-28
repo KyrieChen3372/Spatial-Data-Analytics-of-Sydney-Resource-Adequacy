@@ -103,10 +103,10 @@ To validate the consistency of the scoring model, I conducted Pearson correlatio
 
 ## 💻 How to Run
 
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/yourusername/sydney-spatial-analytics.git](https://github.com/yourusername/sydney-spatial-analytics.git)
-    ```
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/KyrieChen3372/Spatial-Data-Analytics-of-Sydney-Resource-Adequacy.git](https://github.com/KyrieChen3372/Spatial-Data-Analytics-of-Sydney-Resource-Adequacy.git)
+   cd Spatial-Data-Analytics-of-Sydney-Resource-Adequacy
 2.  **Install dependencies**
     ```bash
     pip install pandas geopandas sqlalchemy psycopg2 matplotlib
