@@ -105,8 +105,9 @@ To validate the consistency of the scoring model, I conducted Pearson correlatio
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/KyrieChen3372/Spatial-Data-Analytics-of-Sydney-Resource-Adequacy.git](https://github.com/KyrieChen3372/Spatial-Data-Analytics-of-Sydney-Resource-Adequacy.git)
+   git clone https://github.com/KyrieChen3372/Spatial-Data-Analytics-of-Sydney-Resource-Adequacy.git
    cd Spatial-Data-Analytics-of-Sydney-Resource-Adequacy
+   ```
 2.  **Install dependencies**
     ```bash
     pip install pandas geopandas sqlalchemy psycopg2 matplotlib
@@ -138,6 +139,6 @@ This project is for educational purposes as part of the DATA2001 course at the U
 
 ## 👥 Contributors
 This project was developed as a collaborative effort for the **DATA2001** course at the **University of Sydney**.
-* **Zelin Chen SID530333591** - Parramatta and code start with 125 area Data Analysis & Visualization & analysis and report writing
+* **Zelin Chen SID530333591** - Lead Developer**: Responsible for architecture,PostGIS optimization, Analysis for Parramatta/Code 125 and report writing.
 * **SID540028959** - Inner West area Data Analysis & Visualization & analysis Inner West area
 * **SID540234273** - Blacktown Data Analysis & Visualization & analysis 
