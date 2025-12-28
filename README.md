@@ -140,5 +140,5 @@ This project is for educational purposes as part of the DATA2001 course at the U
 ## 👥 Contributors
 This project was developed as a collaborative effort for the **DATA2001** course at the **University of Sydney**.
 * **Zelin Chen SID530333591** - Lead Developer**: Responsible for architecture,PostGIS optimization, Analysis for Parramatta/Code 125 and report writing.
-* **SID540028959** - Inner West area Data Analysis & Visualization & analysis Inner West area
+* **SID540028959** - Inner West area Data Analysis & Visualization & analysis
 * **SID540234273** - Blacktown Data Analysis & Visualization & analysis 
