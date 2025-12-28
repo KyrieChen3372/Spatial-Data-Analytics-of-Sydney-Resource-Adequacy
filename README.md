@@ -53,13 +53,49 @@ $$Final Score = \sigma(\sum_{i=1}^{n} w_i \cdot Z(x_i))$$
 
 *(Note: Please refer to the `plots/` folder for high-resolution images)*
 
-### 📍 Insight 1: The "Inequality" Map & Infrastructure Lag
-**[Place your Choropleth Map Image here]**
+
+### 📍 Insight 1: Spatial Inequality across Multiple Regions
+To understand the resource distribution, I analyzed three key strategic areas in Greater Sydney:
+
+#### 1. Inner West (Saturated Resource Hub)
+<p align="center">
+  <img src="plots/Well-Resourced Score in (Inner West).png" width="80%" alt="Inner West Map">
+</p>
+*Highly concentrated resources correlating with established urban density.*
+
+#### 2. Blacktown (High Growth, Infrastructure Lag)
+<p align="center">
+  <img src="plots/resource score heatmap(blacktown).png" width="80%" alt="Blacktown Map">
+</p>
+*Identified as a "Resource Desert" where infrastructure development hasn't kept pace with rapid population growth.*
+
+#### 3. Regional Code 125 Area (Developing Corridors)
+<p align="center">
+  <img src="plots/well resourced score code start with 125.png" width="80%" alt="Code 125 Map">
+</p>
 * **Observation:** The analysis revealed a distinct "East-West Divide." The Inner West regions exhibit a high concentration of resources, correlating with established urban density.
 * **Strategic Implication:** In contrast, rapid-growth corridors like **Blacktown** show a significant "Infrastructure Lag"—high population growth but disproportionately low resource scores. For a retail business, these "underserved" high-growth areas represent **prime greenfield expansion opportunities** compared to the saturated Inner West market.
 
-### 📍 Insight 2: Income vs. Resource Correlation
-**[Place your Correlation Matrix/Scatter Plot Image here]**
+
+### 📍 Insight 2: Multi-Regional Correlation Analysis
+To validate the consistency of the scoring model, I conducted Pearson correlation analysis for each study area to explore the relationship between infrastructure indicators and the final resource score.
+
+#### 1. Inner West Correlation Matrix
+<p align="center">
+  <img src="plots/Correlation Matrix of Score Components(Inner West).png" width="60%" alt="Inner West Matrix">
+</p>
+
+#### 2. Blacktown Correlation Matrix
+<p align="center">
+  <img src="plots/correlation between indicators and final score(blacktown).png" width="60%" alt="Blacktown Matrix">
+</p>
+
+#### 3. Regional Code 125 Correlation Matrix
+<p align="center">
+  <img src="plots/correlation matrix code start with 125.png" width="60%" alt="Code 125 Matrix">
+</p>
+
+> **Strategic Finding:** Across all regions, a consistent positive correlation was observed between transport accessibility and business density, though the strength varied, reflecting the diverse urban maturity levels of Greater Sydney.
 * **Observation:** A moderate positive correlation ($r \approx 0.46$) exists between median income and resource scores.
 * **Deep Dive:** While affluent areas generally enjoy better services, outliers exist. Several "High Income / Low Resource" pockets were identified. These specific SA2 regions suggest a market gap where high purchasing power is not met with adequate commercial or service coverage—an ideal target for **premium product positioning**.
 
